@@ -46,10 +46,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QtProjects\Simple
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QtProjects\Simple\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 # Utility rule file for Simple_autogen.
 
@@ -57,8 +57,8 @@ CMAKE_BINARY_DIR = D:\QtProjects\Simple\cmake-build-debug
 include CMakeFiles\Simple_autogen.dir\progress.make
 
 CMakeFiles\Simple_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Simple"
-	echo >nul && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_autogen D:/QtProjects/Simple/cmake-build-debug/CMakeFiles/Simple_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Simple"
+	echo >nul && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_autogen C:/Users/Administrator/Desktop/Simple/cmake-build-debug/CMakeFiles/Simple_autogen.dir/AutogenInfo.json Debug
 
 Simple_autogen: CMakeFiles\Simple_autogen
 Simple_autogen: CMakeFiles\Simple_autogen.dir\build.make
@@ -75,6 +75,6 @@ CMakeFiles\Simple_autogen.dir\clean:
 .PHONY : CMakeFiles\Simple_autogen.dir\clean
 
 CMakeFiles\Simple_autogen.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\QtProjects\Simple D:\QtProjects\Simple D:\QtProjects\Simple\cmake-build-debug D:\QtProjects\Simple\cmake-build-debug D:\QtProjects\Simple\cmake-build-debug\CMakeFiles\Simple_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Administrator\Desktop\Simple C:\Users\Administrator\Desktop\Simple C:\Users\Administrator\Desktop\Simple\cmake-build-debug C:\Users\Administrator\Desktop\Simple\cmake-build-debug C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles\Simple_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\Simple_autogen.dir\depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: D:/QtProjects/Simple/library
+# Install script for directory: C:/Users/Administrator/Desktop/Simple/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

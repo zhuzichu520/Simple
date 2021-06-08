@@ -1,8 +1,8 @@
-D:/QtProjects/Simple/cmake-build-debug/CMakeFiles/Simple.dir
-D:/QtProjects/Simple/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/QtProjects/Simple/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/QtProjects/Simple/cmake-build-debug/CMakeFiles/Simple_autogen.dir
-D:/QtProjects/Simple/cmake-build-debug/library/CMakeFiles/Tools.dir
-D:/QtProjects/Simple/cmake-build-debug/library/CMakeFiles/edit_cache.dir
-D:/QtProjects/Simple/cmake-build-debug/library/CMakeFiles/rebuild_cache.dir
-D:/QtProjects/Simple/cmake-build-debug/library/CMakeFiles/Tools_autogen.dir
+C:/Users/Administrator/Desktop/Simple/cmake-build-debug/CMakeFiles/Simple.dir
+C:/Users/Administrator/Desktop/Simple/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/Simple/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/Desktop/Simple/cmake-build-debug/CMakeFiles/Simple_autogen.dir
+C:/Users/Administrator/Desktop/Simple/cmake-build-debug/library/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/Simple/cmake-build-debug/library/CMakeFiles/Library.dir
+C:/Users/Administrator/Desktop/Simple/cmake-build-debug/library/CMakeFiles/rebuild_cache.dir
+C:/Users/Administrator/Desktop/Simple/cmake-build-debug/library/CMakeFiles/Library_autogen.dir

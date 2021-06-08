@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Tools.dir/Tools_autogen/mocs_compilation.cpp.obj"
-  "CMakeFiles/Tools.dir/tools/ToolDate.cpp.obj"
   "CMakeFiles/Tools_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/Tools_autogen.dir/ParseCache.txt"
   "Tools_autogen"
+  "CMakeFiles/Tools.dir/Tools_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/Tools.dir/tools/ToolDate.cpp.obj"
   "Tools.lib"
   "Tools.pdb"
 )

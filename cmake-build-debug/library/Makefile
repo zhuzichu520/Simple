@@ -51,10 +51,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QtProjects\Simple
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QtProjects\Simple\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,18 +83,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\QtProjects\Simple\cmake-build-debug\CMakeFiles D:\QtProjects\Simple\cmake-build-debug\library\\CMakeFiles\progress.marks
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) library\all
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\QtProjects\Simple\cmake-build-debug\CMakeFiles 0
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) library\clean
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 .PHONY : clean
 
 # The main clean target
@@ -104,95 +104,95 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) library\preinstall
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) library\preinstall
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 .PHONY : depend
 
 # Convenience name for target.
-library\CMakeFiles\Tools.dir\rule:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\rule
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-.PHONY : library\CMakeFiles\Tools.dir\rule
+library\CMakeFiles\Library.dir\rule:
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\rule
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+.PHONY : library\CMakeFiles\Library.dir\rule
 
 # Convenience name for target.
-Tools: library\CMakeFiles\Tools.dir\rule
+Library: library\CMakeFiles\Library.dir\rule
 
-.PHONY : Tools
+.PHONY : Library
 
 # fast build rule for target.
-Tools\fast:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\build
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-.PHONY : Tools\fast
+Library\fast:
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\build
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+.PHONY : Library\fast
 
 # Convenience name for target.
-library\CMakeFiles\Tools_autogen.dir\rule:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools_autogen.dir\rule
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-.PHONY : library\CMakeFiles\Tools_autogen.dir\rule
+library\CMakeFiles\Library_autogen.dir\rule:
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) library\CMakeFiles\Library_autogen.dir\rule
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+.PHONY : library\CMakeFiles\Library_autogen.dir\rule
 
 # Convenience name for target.
-Tools_autogen: library\CMakeFiles\Tools_autogen.dir\rule
+Library_autogen: library\CMakeFiles\Library_autogen.dir\rule
 
-.PHONY : Tools_autogen
+.PHONY : Library_autogen
 
 # fast build rule for target.
-Tools_autogen\fast:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools_autogen.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools_autogen.dir\build
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-.PHONY : Tools_autogen\fast
+Library_autogen\fast:
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library_autogen.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library_autogen.dir\build
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+.PHONY : Library_autogen\fast
 
-Tools_autogen\mocs_compilation.obj: Tools_autogen\mocs_compilation.cpp.obj
+Library_autogen\mocs_compilation.obj: Library_autogen\mocs_compilation.cpp.obj
 
-.PHONY : Tools_autogen\mocs_compilation.obj
+.PHONY : Library_autogen\mocs_compilation.obj
 
 # target to build an object file
-Tools_autogen\mocs_compilation.cpp.obj:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.obj
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-.PHONY : Tools_autogen\mocs_compilation.cpp.obj
+Library_autogen\mocs_compilation.cpp.obj:
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\Library_autogen\mocs_compilation.cpp.obj
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+.PHONY : Library_autogen\mocs_compilation.cpp.obj
 
-Tools_autogen\mocs_compilation.i: Tools_autogen\mocs_compilation.cpp.i
+Library_autogen\mocs_compilation.i: Library_autogen\mocs_compilation.cpp.i
 
-.PHONY : Tools_autogen\mocs_compilation.i
+.PHONY : Library_autogen\mocs_compilation.i
 
 # target to preprocess a source file
-Tools_autogen\mocs_compilation.cpp.i:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.i
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-.PHONY : Tools_autogen\mocs_compilation.cpp.i
+Library_autogen\mocs_compilation.cpp.i:
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\Library_autogen\mocs_compilation.cpp.i
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+.PHONY : Library_autogen\mocs_compilation.cpp.i
 
-Tools_autogen\mocs_compilation.s: Tools_autogen\mocs_compilation.cpp.s
+Library_autogen\mocs_compilation.s: Library_autogen\mocs_compilation.cpp.s
 
-.PHONY : Tools_autogen\mocs_compilation.s
+.PHONY : Library_autogen\mocs_compilation.s
 
 # target to generate assembly for a file
-Tools_autogen\mocs_compilation.cpp.s:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.s
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-.PHONY : Tools_autogen\mocs_compilation.cpp.s
+Library_autogen\mocs_compilation.cpp.s:
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\Library_autogen\mocs_compilation.cpp.s
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+.PHONY : Library_autogen\mocs_compilation.cpp.s
 
 tools\ToolDate.obj: tools\ToolDate.cpp.obj
 
@@ -200,9 +200,9 @@ tools\ToolDate.obj: tools\ToolDate.cpp.obj
 
 # target to build an object file
 tools\ToolDate.cpp.obj:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\tools\ToolDate.cpp.obj
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\tools\ToolDate.cpp.obj
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 .PHONY : tools\ToolDate.cpp.obj
 
 tools\ToolDate.i: tools\ToolDate.cpp.i
@@ -211,9 +211,9 @@ tools\ToolDate.i: tools\ToolDate.cpp.i
 
 # target to preprocess a source file
 tools\ToolDate.cpp.i:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\tools\ToolDate.cpp.i
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\tools\ToolDate.cpp.i
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 .PHONY : tools\ToolDate.cpp.i
 
 tools\ToolDate.s: tools\ToolDate.cpp.s
@@ -222,9 +222,9 @@ tools\ToolDate.s: tools\ToolDate.cpp.s
 
 # target to generate assembly for a file
 tools\ToolDate.cpp.s:
-	cd D:\QtProjects\Simple\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\tools\ToolDate.cpp.s
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\tools\ToolDate.cpp.s
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 .PHONY : tools\ToolDate.cpp.s
 
 # Help Target
@@ -235,11 +235,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Tools_autogen
-	@echo ... Tools
-	@echo ... Tools_autogen/mocs_compilation.obj
-	@echo ... Tools_autogen/mocs_compilation.i
-	@echo ... Tools_autogen/mocs_compilation.s
+	@echo ... Library_autogen
+	@echo ... Library
+	@echo ... Library_autogen/mocs_compilation.obj
+	@echo ... Library_autogen/mocs_compilation.i
+	@echo ... Library_autogen/mocs_compilation.s
 	@echo ... tools/ToolDate.obj
 	@echo ... tools/ToolDate.i
 	@echo ... tools/ToolDate.s
@@ -254,8 +254,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 .PHONY : cmake_check_build_system
 

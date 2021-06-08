@@ -1,8 +1,7 @@
-"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\QtProjects\Simple
+"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\Administrator\Desktop\Simple
 ===================Start Load Tools===================
-D:/QtProjects/Simple/library/tools/ToolDate.cpp
+C:/Users/Administrator/Desktop/Simple/library/tools/ToolDate.cpp
 =================== End Load Tools ===================
-Qt5::CoreQt5::GuiQt5::WidgetsQt5::QmlQt5::QuickQt5::QuickControls2
 -- Configuring done
 -- Generating done
--- Build files have been written to: D:/QtProjects/Simple/cmake-build-debug
+-- Build files have been written to: C:/Users/Administrator/Desktop/Simple/cmake-build-debug

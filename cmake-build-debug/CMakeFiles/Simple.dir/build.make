@@ -46,10 +46,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QtProjects\Simple
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QtProjects\Simple\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\Simple.dir\depend.make
@@ -63,65 +63,65 @@ include CMakeFiles\Simple.dir\flags.make
 Simple_autogen\EWIEGA46WW\qrc_qml.cpp: ..\qml.qrc
 Simple_autogen\EWIEGA46WW\qrc_qml.cpp: CMakeFiles\Simple_autogen.dir\AutoRcc_qml_EWIEGA46WW_Info.json
 Simple_autogen\EWIEGA46WW\qrc_qml.cpp: ..\main.qml
-Simple_autogen\EWIEGA46WW\qrc_qml.cpp: D:\Qt\Qt5.14.2\5.14.2\msvc2017\bin\rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for qml.qrc"
-	echo >nul && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc D:/QtProjects/Simple/cmake-build-debug/CMakeFiles/Simple_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json Debug
+Simple_autogen\EWIEGA46WW\qrc_qml.cpp: D:\Qt\5.15.2\msvc2019\bin\rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic RCC for qml.qrc"
+	echo >nul && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_autorcc C:/Users/Administrator/Desktop/Simple/cmake-build-debug/CMakeFiles/Simple_autogen.dir/AutoRcc_qml_EWIEGA46WW_Info.json Debug
 
 CMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.obj: CMakeFiles\Simple.dir\flags.make
 CMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.obj: Simple_autogen\mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simple.dir/Simple_autogen/mocs_compilation.cpp.obj"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.obj /FdCMakeFiles\Simple.dir\ /FS -c D:\QtProjects\Simple\cmake-build-debug\Simple_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simple.dir/Simple_autogen/mocs_compilation.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.obj /FdCMakeFiles\Simple.dir\ /FS -c C:\Users\Administrator\Desktop\Simple\cmake-build-debug\Simple_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple.dir/Simple_autogen/mocs_compilation.cpp.i"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" > CMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QtProjects\Simple\cmake-build-debug\Simple_autogen\mocs_compilation.cpp
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" > CMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\Simple\cmake-build-debug\Simple_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple.dir/Simple_autogen/mocs_compilation.cpp.s"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.s /c D:\QtProjects\Simple\cmake-build-debug\Simple_autogen\mocs_compilation.cpp
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.s /c C:\Users\Administrator\Desktop\Simple\cmake-build-debug\Simple_autogen\mocs_compilation.cpp
 <<
 
 CMakeFiles\Simple.dir\main.cpp.obj: CMakeFiles\Simple.dir\flags.make
 CMakeFiles\Simple.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Simple.dir/main.cpp.obj"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Simple.dir\main.cpp.obj /FdCMakeFiles\Simple.dir\ /FS -c D:\QtProjects\Simple\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Simple.dir/main.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Simple.dir\main.cpp.obj /FdCMakeFiles\Simple.dir\ /FS -c C:\Users\Administrator\Desktop\Simple\main.cpp
 <<
 
 CMakeFiles\Simple.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple.dir/main.cpp.i"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" > CMakeFiles\Simple.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QtProjects\Simple\main.cpp
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" > CMakeFiles\Simple.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\Simple\main.cpp
 <<
 
 CMakeFiles\Simple.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple.dir/main.cpp.s"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Simple.dir\main.cpp.s /c D:\QtProjects\Simple\main.cpp
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Simple.dir\main.cpp.s /c C:\Users\Administrator\Desktop\Simple\main.cpp
 <<
 
 CMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.obj: CMakeFiles\Simple.dir\flags.make
 CMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.obj: Simple_autogen\EWIEGA46WW\qrc_qml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Simple.dir/Simple_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.obj /FdCMakeFiles\Simple.dir\ /FS -c D:\QtProjects\Simple\cmake-build-debug\Simple_autogen\EWIEGA46WW\qrc_qml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Simple.dir/Simple_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.obj /FdCMakeFiles\Simple.dir\ /FS -c C:\Users\Administrator\Desktop\Simple\cmake-build-debug\Simple_autogen\EWIEGA46WW\qrc_qml.cpp
 <<
 
 CMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple.dir/Simple_autogen/EWIEGA46WW/qrc_qml.cpp.i"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" > CMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QtProjects\Simple\cmake-build-debug\Simple_autogen\EWIEGA46WW\qrc_qml.cpp
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" > CMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\Simple\cmake-build-debug\Simple_autogen\EWIEGA46WW\qrc_qml.cpp
 <<
 
 CMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple.dir/Simple_autogen/EWIEGA46WW/qrc_qml.cpp.s"
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.s /c D:\QtProjects\Simple\cmake-build-debug\Simple_autogen\EWIEGA46WW\qrc_qml.cpp
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.s /c C:\Users\Administrator\Desktop\Simple\cmake-build-debug\Simple_autogen\EWIEGA46WW\qrc_qml.cpp
 <<
 
 # Object files for target Simple
@@ -137,27 +137,27 @@ Simple.exe: CMakeFiles\Simple.dir\Simple_autogen\mocs_compilation.cpp.obj
 Simple.exe: CMakeFiles\Simple.dir\main.cpp.obj
 Simple.exe: CMakeFiles\Simple.dir\Simple_autogen\EWIEGA46WW\qrc_qml.cpp.obj
 Simple.exe: CMakeFiles\Simple.dir\build.make
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Widgetsd.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5QuickControls2d.lib
-Simple.exe: library\Tools.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Quickd.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Guid.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5QmlModelsd.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Qmld.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Networkd.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Cored.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Widgetsd.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5QuickControls2d.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Quickd.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Guid.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5QmlModelsd.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Qmld.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Networkd.lib
-Simple.exe: D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Cored.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Widgetsd.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5QuickControls2d.lib
+Simple.exe: library\Library.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Quickd.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Guid.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5QmlModelsd.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Qmld.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Networkd.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Cored.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Widgetsd.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5QuickControls2d.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Quickd.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Guid.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5QmlModelsd.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Qmld.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Networkd.lib
+Simple.exe: D:\Qt\5.15.2\msvc2019\lib\Qt5Cored.lib
 Simple.exe: CMakeFiles\Simple.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Simple.exe"
-	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Simple.dir --rc="D:\Windows Kits\10\bin\10.0.17763.0\x86\rc.exe" --mt="D:\Windows Kits\10\bin\10.0.17763.0\x86\mt.exe" --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\Simple.dir\objects1.rsp @<<
- /out:Simple.exe /implib:Simple.lib /pdb:D:\QtProjects\Simple\cmake-build-debug\Simple.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Widgetsd.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5QuickControls2d.lib library\Tools.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Quickd.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Guid.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5QmlModelsd.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Qmld.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Networkd.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Cored.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Widgetsd.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5QuickControls2d.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Quickd.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Guid.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5QmlModelsd.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Qmld.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Networkd.lib D:\Qt\Qt5.14.2\5.14.2\msvc2017\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Simple.exe"
+	"D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Simple.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- "D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\Simple.dir\objects1.rsp @<<
+ /out:Simple.exe /implib:Simple.lib /pdb:C:\Users\Administrator\Desktop\Simple\cmake-build-debug\Simple.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  D:\Qt\5.15.2\msvc2019\lib\Qt5Widgetsd.lib D:\Qt\5.15.2\msvc2019\lib\Qt5QuickControls2d.lib library\Library.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Quickd.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Guid.lib D:\Qt\5.15.2\msvc2019\lib\Qt5QmlModelsd.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Qmld.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Networkd.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Cored.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Widgetsd.lib D:\Qt\5.15.2\msvc2019\lib\Qt5QuickControls2d.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Quickd.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Guid.lib D:\Qt\5.15.2\msvc2019\lib\Qt5QmlModelsd.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Qmld.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Networkd.lib D:\Qt\5.15.2\msvc2019\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles\Simple.dir\clean:
 .PHONY : CMakeFiles\Simple.dir\clean
 
 CMakeFiles\Simple.dir\depend: Simple_autogen\EWIEGA46WW\qrc_qml.cpp
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\QtProjects\Simple D:\QtProjects\Simple D:\QtProjects\Simple\cmake-build-debug D:\QtProjects\Simple\cmake-build-debug D:\QtProjects\Simple\cmake-build-debug\CMakeFiles\Simple.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Administrator\Desktop\Simple C:\Users\Administrator\Desktop\Simple C:\Users\Administrator\Desktop\Simple\cmake-build-debug C:\Users\Administrator\Desktop\Simple\cmake-build-debug C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles\Simple.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\Simple.dir\depend
 

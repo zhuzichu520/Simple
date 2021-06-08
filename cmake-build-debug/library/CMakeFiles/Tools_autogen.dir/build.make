@@ -46,10 +46,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QtProjects\Simple
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QtProjects\Simple\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 # Utility rule file for Tools_autogen.
 
@@ -57,10 +57,10 @@ CMAKE_BINARY_DIR = D:\QtProjects\Simple\cmake-build-debug
 include library\CMakeFiles\Tools_autogen.dir\progress.make
 
 library\CMakeFiles\Tools_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Tools"
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	echo >nul && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_autogen D:/QtProjects/Simple/cmake-build-debug/library/CMakeFiles/Tools_autogen.dir/AutogenInfo.json Debug
-	cd D:\QtProjects\Simple\cmake-build-debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Tools"
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	echo >nul && "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E cmake_autogen C:/Users/Administrator/Desktop/Simple/cmake-build-debug/library/CMakeFiles/Tools_autogen.dir/AutogenInfo.json Debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 Tools_autogen: library\CMakeFiles\Tools_autogen
 Tools_autogen: library\CMakeFiles\Tools_autogen.dir\build.make
@@ -73,12 +73,12 @@ library\CMakeFiles\Tools_autogen.dir\build: Tools_autogen
 .PHONY : library\CMakeFiles\Tools_autogen.dir\build
 
 library\CMakeFiles\Tools_autogen.dir\clean:
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 	$(CMAKE_COMMAND) -P CMakeFiles\Tools_autogen.dir\cmake_clean.cmake
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 .PHONY : library\CMakeFiles\Tools_autogen.dir\clean
 
 library\CMakeFiles\Tools_autogen.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\QtProjects\Simple D:\QtProjects\Simple\library D:\QtProjects\Simple\cmake-build-debug D:\QtProjects\Simple\cmake-build-debug\library D:\QtProjects\Simple\cmake-build-debug\library\CMakeFiles\Tools_autogen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Administrator\Desktop\Simple C:\Users\Administrator\Desktop\Simple\library C:\Users\Administrator\Desktop\Simple\cmake-build-debug C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library\CMakeFiles\Tools_autogen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : library\CMakeFiles\Tools_autogen.dir\depend
 

@@ -51,10 +51,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QtProjects\Simple
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QtProjects\Simple\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,9 +83,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\QtProjects\Simple\cmake-build-debug\CMakeFiles D:\QtProjects\Simple\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles C:\Users\Administrator\Desktop\Simple\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\QtProjects\Simple\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -140,30 +140,30 @@ Simple_autogen\fast:
 .PHONY : Simple_autogen\fast
 
 #=============================================================================
-# Target rules for targets named Tools
+# Target rules for targets named Library
 
 # Build rule for target.
-Tools: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Tools
-.PHONY : Tools
+Library: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Library
+.PHONY : Library
 
 # fast build rule for target.
-Tools\fast:
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools.dir\build
-.PHONY : Tools\fast
+Library\fast:
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library.dir\build
+.PHONY : Library\fast
 
 #=============================================================================
-# Target rules for targets named Tools_autogen
+# Target rules for targets named Library_autogen
 
 # Build rule for target.
-Tools_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Tools_autogen
-.PHONY : Tools_autogen
+Library_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Library_autogen
+.PHONY : Library_autogen
 
 # fast build rule for target.
-Tools_autogen\fast:
-	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Tools_autogen.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Tools_autogen.dir\build
-.PHONY : Tools_autogen\fast
+Library_autogen\fast:
+	$(MAKE) $(MAKESILENT) -f library\CMakeFiles\Library_autogen.dir\build.make /nologo -$(MAKEFLAGS) library\CMakeFiles\Library_autogen.dir\build
+.PHONY : Library_autogen\fast
 
 Simple_autogen\EWIEGA46WW\qrc_qml.obj: Simple_autogen\EWIEGA46WW\qrc_qml.cpp.obj
 
@@ -254,10 +254,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Library_autogen
 	@echo ... Simple_autogen
-	@echo ... Tools_autogen
+	@echo ... Library
 	@echo ... Simple
-	@echo ... Tools
 	@echo ... Simple_autogen/EWIEGA46WW/qrc_qml.obj
 	@echo ... Simple_autogen/EWIEGA46WW/qrc_qml.i
 	@echo ... Simple_autogen/EWIEGA46WW/qrc_qml.s

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Simple.dir/Simple_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
-  "CMakeFiles/Simple.dir/Simple_autogen/mocs_compilation.cpp.obj"
-  "CMakeFiles/Simple.dir/main.cpp.obj"
   "CMakeFiles/Simple_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/Simple_autogen.dir/ParseCache.txt"
   "Simple_autogen"
+  "CMakeFiles/Simple.dir/Simple_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
+  "CMakeFiles/Simple.dir/Simple_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/Simple.dir/main.cpp.obj"
   "Simple.exe"
   "Simple.exe.manifest"
   "Simple.lib"

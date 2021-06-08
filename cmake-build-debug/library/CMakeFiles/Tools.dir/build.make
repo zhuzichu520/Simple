@@ -46,10 +46,10 @@ RM = "D:\Program Files\JetBrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\QtProjects\Simple
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\Simple
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\QtProjects\Simple\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include library\CMakeFiles\Tools.dir\depend.make
@@ -62,53 +62,53 @@ include library\CMakeFiles\Tools.dir\flags.make
 
 library\CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.obj: library\CMakeFiles\Tools.dir\flags.make
 library\CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.obj: library\Tools_autogen\mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/Tools.dir/Tools_autogen/mocs_compilation.cpp.obj"
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.obj /FdCMakeFiles\Tools.dir\Tools.pdb /FS -c D:\QtProjects\Simple\cmake-build-debug\library\Tools_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/Tools.dir/Tools_autogen/mocs_compilation.cpp.obj"
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.obj /FdCMakeFiles\Tools.dir\Tools.pdb /FS -c C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library\Tools_autogen\mocs_compilation.cpp
 <<
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 library\CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tools.dir/Tools_autogen/mocs_compilation.cpp.i"
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" > CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QtProjects\Simple\cmake-build-debug\library\Tools_autogen\mocs_compilation.cpp
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" > CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library\Tools_autogen\mocs_compilation.cpp
 <<
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 library\CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tools.dir/Tools_autogen/mocs_compilation.cpp.s"
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.s /c D:\QtProjects\Simple\cmake-build-debug\library\Tools_autogen\mocs_compilation.cpp
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.cpp.s /c C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library\Tools_autogen\mocs_compilation.cpp
 <<
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 library\CMakeFiles\Tools.dir\tools\ToolDate.cpp.obj: library\CMakeFiles\Tools.dir\flags.make
 library\CMakeFiles\Tools.dir\tools\ToolDate.cpp.obj: ..\library\tools\ToolDate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Tools.dir/tools/ToolDate.cpp.obj"
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Tools.dir\tools\ToolDate.cpp.obj /FdCMakeFiles\Tools.dir\Tools.pdb /FS -c D:\QtProjects\Simple\library\tools\ToolDate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Tools.dir/tools/ToolDate.cpp.obj"
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Tools.dir\tools\ToolDate.cpp.obj /FdCMakeFiles\Tools.dir\Tools.pdb /FS -c C:\Users\Administrator\Desktop\Simple\library\tools\ToolDate.cpp
 <<
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 library\CMakeFiles\Tools.dir\tools\ToolDate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tools.dir/tools/ToolDate.cpp.i"
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" > CMakeFiles\Tools.dir\tools\ToolDate.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\QtProjects\Simple\library\tools\ToolDate.cpp
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" > CMakeFiles\Tools.dir\tools\ToolDate.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\Simple\library\tools\ToolDate.cpp
 <<
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 library\CMakeFiles\Tools.dir\tools\ToolDate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tools.dir/tools/ToolDate.cpp.s"
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Tools.dir\tools\ToolDate.cpp.s /c D:\QtProjects\Simple\library\tools\ToolDate.cpp
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\cl.exe" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Tools.dir\tools\ToolDate.cpp.s /c C:\Users\Administrator\Desktop\Simple\library\tools\ToolDate.cpp
 <<
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 # Object files for target Tools
 Tools_OBJECTS = \
@@ -122,13 +122,13 @@ library\Tools.lib: library\CMakeFiles\Tools.dir\Tools_autogen\mocs_compilation.c
 library\Tools.lib: library\CMakeFiles\Tools.dir\tools\ToolDate.cpp.obj
 library\Tools.lib: library\CMakeFiles\Tools.dir\build.make
 library\Tools.lib: library\CMakeFiles\Tools.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\QtProjects\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library Tools.lib"
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Administrator\Desktop\Simple\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library Tools.lib"
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 	$(CMAKE_COMMAND) -P CMakeFiles\Tools.dir\cmake_clean_target.cmake
-	cd D:\QtProjects\Simple\cmake-build-debug
-	cd D:\QtProjects\Simple\cmake-build-debug\library
-	"D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\lib.exe" /nologo /machine:X86 /out:Tools.lib @CMakeFiles\Tools.dir\objects1.rsp 
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
+	"D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\Hostx86\x86\lib.exe" /nologo /machine:X86 /out:Tools.lib @CMakeFiles\Tools.dir\objects1.rsp 
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 
 # Rule to build all files generated by this target.
 library\CMakeFiles\Tools.dir\build: library\Tools.lib
@@ -136,12 +136,12 @@ library\CMakeFiles\Tools.dir\build: library\Tools.lib
 .PHONY : library\CMakeFiles\Tools.dir\build
 
 library\CMakeFiles\Tools.dir\clean:
-	cd D:\QtProjects\Simple\cmake-build-debug\library
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library
 	$(CMAKE_COMMAND) -P CMakeFiles\Tools.dir\cmake_clean.cmake
-	cd D:\QtProjects\Simple\cmake-build-debug
+	cd C:\Users\Administrator\Desktop\Simple\cmake-build-debug
 .PHONY : library\CMakeFiles\Tools.dir\clean
 
 library\CMakeFiles\Tools.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\QtProjects\Simple D:\QtProjects\Simple\library D:\QtProjects\Simple\cmake-build-debug D:\QtProjects\Simple\cmake-build-debug\library D:\QtProjects\Simple\cmake-build-debug\library\CMakeFiles\Tools.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Administrator\Desktop\Simple C:\Users\Administrator\Desktop\Simple\library C:\Users\Administrator\Desktop\Simple\cmake-build-debug C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library C:\Users\Administrator\Desktop\Simple\cmake-build-debug\library\CMakeFiles\Tools.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : library\CMakeFiles\Tools.dir\depend
 
