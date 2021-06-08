@@ -1,10 +1,5 @@
-include_directories(../include/library/tools)
-find_package(Qt5 COMPONENTS Core REQUIRED)
-file(GLOB FILE_TOOLS "tools/*.cpp")
-message("===================Start Load Tools===================")
-message(${FILE_TOOLS})
-message("=================== End Load Tools ===================")
-add_library(Library ${FILE_TOOLS})
-
+file(GLOB CPP_FILES "tools/*.cpp")
+message(${CPP_FILES})
+add_library(Library ${CPP_FILES})
 find_package(Qt${QT_VERSION} COMPONENTS ${REQUIRED_LIBS} REQUIRED)
 target_link_libraries(Library ${REQUIRED_LIBS_QUALIFIED})
