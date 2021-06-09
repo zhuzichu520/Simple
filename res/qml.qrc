@@ -1,5 +1,21 @@
 <RCC>
     <qresource prefix="/">
-        <file>layout/main.qml</file>
+        <file>layout/ActivityMain.qml</file>
+        <file>drawable/close-button1.svg</file>
+        <file>drawable/maximize-button1.svg</file>
+        <file>drawable/maximize-button2.svg</file>
+        <file>drawable/minimize-button1.svg</file>
+        <file>view/ButtonClose.qml</file>
+        <file>view/ButtonMaximize.qml</file>
+        <file>view/ButtonMinimize.qml</file>
+        <file>base/Activity.qml</file>
+        <file>view/ThreeButtons.qml</file>
+        <file>view/WindowBorder.qml</file>
+        <file>view/CusTitleBar.qml</file>
+        <file>base/Fragment.qml</file>
+        <file>layout/FragmentMain.qml</file>
+        <file>layout/FragmentLogin.qml</file>
+        <file>layout/ActivityMessage.qml</file>
+        <file>base/Application.qml</file>
     </qresource>
 </RCC>
