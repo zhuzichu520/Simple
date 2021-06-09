@@ -1,7 +1,3 @@
-//
-// Created by Administrator on 2021/6/9 0009.
-//
-
 #ifndef SIMPLE_BASEACTIVITY_H
 #define SIMPLE_BASEACTIVITY_H
 

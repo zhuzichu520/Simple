@@ -14,8 +14,9 @@ set(REQUIRED_LIBS_QUALIFIED Qt5::Core Qt5::Gui Qt5::Qml Qt5::Quick Qt5::WinExtra
 
 include_directories(library/include)
 add_subdirectory(library)
+include_directories(library/include)
 add_subdirectory(src)
 
 find_package(Qt${QT_VERSION} COMPONENTS ${REQUIRED_LIBS} REQUIRED)
 add_executable(${PROJECT_NAME} src/main.cpp res/qml.qrc)
-target_link_libraries(${PROJECT_NAME} ${REQUIRED_LIBS_QUALIFIED} Library)
+target_link_libraries(${PROJECT_NAME} ${REQUIRED_LIBS_QUALIFIED} Library Source)

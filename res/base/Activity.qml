@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.9
 import QtQuick.Controls 2.5
 import QtQuick.Controls.Material 2.3
 import QtGraphicalEffects 1.0
@@ -8,12 +8,19 @@ import "../view"
 
 ApplicationWindow {
 
+    property int titleBarHeight:28
+
     id:root
-    flags: Qt.Dialog | Qt.FramelessWindowHint
+    flags: Qt.Window | Qt.FramelessWindowHint | Qt.CustomizeWindowHint
+
+    onClosing: function(closeevent){
+        closeevent.accepted = false
+        root.destroy()
+    }
 
     FramelessHelper {
         id: frameless
-        titleBarHeight: 28
+        titleBarHeight: root.titleBarHeight
         Component.onCompleted: {
             addIncludeItem(titleBar)
             addExcludeItem(controls)
@@ -24,13 +31,20 @@ ApplicationWindow {
         id:container
         width: parent.width
         anchors{
-            top:titleBar.bottom
+            top: titleBar.bottom
             bottom: parent.bottom
         }
     }
 
     CusTitleBar {
         id: titleBar
+        height: titleBarHeight
+        width: parent.width
+        color: "#EFEFEF"
+    }
+
+    WindowBorder {
+        foregroundColor: "#FF4F7DA4"
     }
 
     ThreeButtons {

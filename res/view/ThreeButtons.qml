@@ -3,13 +3,13 @@ import QtQuick.Window 2.3
 
 Row {
 
+    id: control
     property var helper
     property bool active: Window.active
     property bool noWarning: false
     property string color: "black"
     signal closeEvent
 
-    id: control
     anchors {
         top: parent.top
         right: parent.right

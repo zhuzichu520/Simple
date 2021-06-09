@@ -17,5 +17,6 @@
         <file>layout/FragmentLogin.qml</file>
         <file>layout/ActivityMessage.qml</file>
         <file>base/Application.qml</file>
+        <file>view/CusButton.qml</file>
     </qresource>
 </RCC>

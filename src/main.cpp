@@ -9,7 +9,7 @@
 int main(int argc, char *argv[]) {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QCoreApplication::setAttribute(Qt::AA_UseOpenGLES);
-    QQuickStyle::setStyle("Material");
+//    QQuickStyle::setStyle("Material");
     QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine;
     const QString &string = ToolDate::getCurrTimeStr();

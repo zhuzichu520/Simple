@@ -6,7 +6,7 @@ import "../base"
 Activity {
     width: 300
     height: 400
-    minimumHeight: 200
+    minimumHeight: 300
     minimumWidth: 300
     Component.onCompleted: {
         startFragment("qrc:/layout/FragmentMain.qml")

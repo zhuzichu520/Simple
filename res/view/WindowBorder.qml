@@ -13,6 +13,5 @@ Rectangle {
     border.width: 1
     color: "transparent"
     border.color: active ? foregroundColor : backgroundColor
-    radius: 10
 
 }

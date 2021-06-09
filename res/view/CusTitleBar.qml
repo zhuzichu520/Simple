@@ -5,8 +5,6 @@ Item {
     property alias color: bg.color
 
     id: titleBar
-    height: 28
-    width: parent.width
 
     Rectangle{
         id:bg

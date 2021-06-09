@@ -1,4 +1,4 @@
-#include <frameless/NativeWindowHelper.h>
+﻿#include <frameless/NativeWindowHelper.h>
 #include <frameless/NativeWindowHelper_p.h>
 #include <windows.h>
 #include <windowsx.h>
@@ -14,8 +14,6 @@
 //make mingw happy
 #define WM_DPICHANGED       0x02E0
 #endif
-
-// class NativeWindowHelper
 
 NativeWindowHelper::NativeWindowHelper(QWindow *window, NativeWindowTester *tester)
     : QObject(window)
