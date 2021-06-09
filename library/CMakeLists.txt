@@ -1,4 +1,9 @@
-file(GLOB CPP_FILES "tools/*.cpp")
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+file(GLOB CPP_FILES "tools/*.cpp" "base/*.cpp")
 message(${CPP_FILES})
 add_library(Library ${CPP_FILES})
 find_package(Qt${QT_VERSION} COMPONENTS ${REQUIRED_LIBS} REQUIRED)

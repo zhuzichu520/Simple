@@ -1,6 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <tools/ToolDate.h>
+#include <base/BaseActivity.h>
 #include <qdebug.h>
 
 int main(int argc, char *argv[]) {
@@ -16,5 +17,6 @@ int main(int argc, char *argv[]) {
                     QCoreApplication::exit(-1);
             }, Qt::QueuedConnection);
     engine.load(url);
+    BaseActivity baseActivity;
     return QGuiApplication::exec();
 }
