@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.12)
 project(Simple VERSION 1.0.0 LANGUAGES CXX)
+add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
+add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
 
 set(QT_VERSION 5)
 set(CMAKE_CXX_STANDARD 17)
@@ -14,7 +16,7 @@ set(REQUIRED_LIBS_QUALIFIED Qt5::Core Qt5::Gui Qt5::Qml Qt5::Quick Qt5::WinExtra
 
 include_directories(library/include)
 add_subdirectory(library)
-include_directories(library/include)
+include_directories(src/include)
 add_subdirectory(src)
 
 find_package(Qt${QT_VERSION} COMPONENTS ${REQUIRED_LIBS} REQUIRED)

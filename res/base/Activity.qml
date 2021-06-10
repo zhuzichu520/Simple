@@ -11,7 +11,7 @@ ApplicationWindow {
     property int titleBarHeight:28
 
     id:root
-    flags: Qt.Window | Qt.FramelessWindowHint | Qt.CustomizeWindowHint
+    flags: Qt.Window | Qt.FramelessWindowHint
 
     onClosing: function(closeevent){
         closeevent.accepted = false

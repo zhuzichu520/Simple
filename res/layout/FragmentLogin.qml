@@ -1,9 +1,13 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.5
+import UI.Controller 1.0
 import "../base"
 import "../view"
 
 Fragment {
+
+    controller:LoginController{
+    }
 
     onCreateView: {
         console.debug("登录页面加载完成")
@@ -26,6 +30,7 @@ Fragment {
             top:parent.top
             topMargin: 80
         }
+        text:controller.username
         height: 34
         focus: true
         maximumLength: 15
@@ -50,6 +55,7 @@ Fragment {
             top:username.bottom
             topMargin: 10
         }
+        text:controller.password
         height: 34
         focus: true
         maximumLength: 15
@@ -74,7 +80,7 @@ Fragment {
             horizontalCenter: parent.horizontalCenter
         }
         onClicked: {
-            back()
+            controller.onClickLogin()
         }
     }
 

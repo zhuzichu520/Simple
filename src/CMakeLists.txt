@@ -1,4 +1,5 @@
-file(GLOB LOGIN "login/*.cpp" “include/login/*.h”)
-add_library(Source ${LOGIN})
+file(GLOB LOGIN "login/*.cpp" "include/login/*.h")
+file(GLOB APPLICATION "application/*.cpp" "include/application/*.h")
+add_library(Source ${LOGIN} ${APPLICATION})
 find_package(Qt${QT_VERSION} COMPONENTS ${REQUIRED_LIBS} REQUIRED)
 target_link_libraries(Source ${REQUIRED_LIBS_QUALIFIED})
