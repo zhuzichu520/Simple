@@ -1,5 +1,6 @@
 #include <application/Application.h>
 #include <QDateTime>
+#include <tools/ToolLog.h>
 
 Q_GLOBAL_STATIC(Application, application)
 
@@ -7,15 +8,16 @@ Application *Application::instance() {
     return application();
 }
 
-void Application::init() {
-    qDebug() << "开始初始化:" << QDateTime::currentDateTimeUtc().toTime_t();
+void Application::init(int argc, char *argv[]) {
+    LOG(INFO) << "main函数参数长度:" << argc;
+    LOG(INFO) << "开始初始化:" << QDateTime::currentDateTimeUtc().toTime_t();
+    ToolLog toolLog(argv);
     registerQmlType();
     initHttp();
-    qDebug() << "结束初始化:" << QDateTime::currentDateTimeUtc().toTime_t();
+    LOG(INFO) << "结束初始化:" << QDateTime::currentDateTimeUtc().toTime_t();
 }
 
 void Application::registerQmlType() {
-    qmlRegisterType<WindowFramelessHelper>("QtShark.Window", 1, 0, "FramelessHelper");
     qmlRegisterType<LoginController>("UI.Controller", 1, 0, "LoginController");
 }
 

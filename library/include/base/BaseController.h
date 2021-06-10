@@ -18,6 +18,8 @@ public:
 
     void startFragment(const QString &url);
 
+    void toast(const QString &text);
+
     void back();
 
 private:

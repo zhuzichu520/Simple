@@ -49,3 +49,7 @@ void BaseController::startFragment(const QString &url) {
 void BaseController::back() {
     QMetaObject::invokeMethod(m_root, "back");
 }
+
+void BaseController::toast(const QString &text) {
+    QMetaObject::invokeMethod(m_root, "toast", Q_ARG(QVariant, text));
+}

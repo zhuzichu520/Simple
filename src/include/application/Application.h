@@ -7,7 +7,6 @@
 #include <QGuiApplication>
 #include <login/LoginController.h>
 #include <tools/ToolDate.h>
-#include <frameless/WindowFramelessHelper.h>
 #include <qdebug.h>
 #include <QNetworkAccessManager>
 
@@ -24,7 +23,7 @@ public:
 
     static Application *instance();
 
-    void init();
+    void init(int argc, char *argv[]);
 
 private:
     void registerQmlType();

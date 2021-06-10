@@ -4,7 +4,6 @@ import "../base"
 
 Fragment {
 
-
     width: parent.width
     title:"主页"
 
@@ -23,16 +22,11 @@ Fragment {
                 startActivity("qrc:/layout/ActivityMessage.qml")
             }
         }
-
         Button{
             text: "回退触发"
             onClicked: {
                 back()
             }
         }
-
     }
-
-
-
 }

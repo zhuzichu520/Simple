@@ -1,17 +1,18 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.5
+import "../view"
 
 Page {
 
     property var activity
     property var controller
-    signal createView()
-    signal destroyView()
+    signal createView
+    signal destroyView
 
-    id:fragment
+    id: fragment
 
     Component.onCompleted: {
-        if(controller !== undefined)
+        if (controller !== undefined)
             controller.onCreateView(fragment)
         createView()
     }
@@ -20,16 +21,23 @@ Page {
         destroyView()
     }
 
-    function startFragment(url){
+    ToastManager {
+        id: toastManager
+    }
+
+    function startFragment(url) {
         activity.startFragment(url)
     }
 
-    function startActivity(url){
+    function startActivity(url) {
         activity.startActivity(url)
     }
 
-    function back(){
+    function back() {
         activity.back()
     }
 
+    function toast(text) {
+        toastManager.show(text)
+    }
 }
