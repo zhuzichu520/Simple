@@ -10,6 +10,6 @@ int main(int argc, char *argv[]) {
     QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine;
     APP->init(argc, argv);
-    engine.load(QUrl("qrc:/base/Application.qml"));
+    engine.load(QUrl("qrc:/layout/ActivityMain.qml"));
     return QGuiApplication::exec();
 }

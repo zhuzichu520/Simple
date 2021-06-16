@@ -1,30 +1,29 @@
 #include <login/LoginController.h>
 
-
 LoginController::LoginController(QObject *parent) : BaseController(parent) {
-    qDebug() << "执行LoginController的构造函数";
+    SPDLOG_INFO("执行LoginController的构造函数");
 }
 
 LoginController::~LoginController() {
-    qDebug() << "执行LoginController的构造函数";
+    SPDLOG_INFO("执行LoginController的构造函数");
 }
 
 const QString &LoginController::getUsername() const {
-    return username;
+    return m_username;
 }
 
 void LoginController::setUsername(const QString &username) {
-    LoginController::username = username;
+    m_username = username;
     Q_EMIT usernameChanged(username);
 }
 
 const QString &LoginController::getPassword() const {
-    return password;
+    return m_password;
 }
 
 void LoginController::setPassword(const QString &password) {
-    LoginController::password = password;
-    Q_EMIT passwordChanged(username);
+    m_password = password;
+    Q_EMIT passwordChanged(m_password);
 }
 
 void LoginController::initView() {
@@ -33,13 +32,13 @@ void LoginController::initView() {
 }
 
 void LoginController::onClickLogin() {
-    qDebug() << "用户名：" + username;
-    qDebug() << "密码：" + password;
+    SPDLOG_INFO("用户名：{}", m_username.toStdString());
+    SPDLOG_INFO("密码：{}", m_password.toStdString());
     QMap<QString, QString> paramMap;
-    paramMap["username"] = username;
-    paramMap["password"] = password;
+    paramMap["username"] = m_username;
+    paramMap["password"] = m_password;
     Request *request = HttpManager::instance().post("https://www.wanandroid.com/user/login", paramMap);
-    connect(request, &Request::onSuccess, this, [this](QString response) {
+    connect(request, &Request::onSuccess, this, [this](const QString &response) {
         toast(response);
     });
 }

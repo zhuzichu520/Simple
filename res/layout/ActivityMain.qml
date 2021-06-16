@@ -8,6 +8,7 @@ Activity {
     height: 400
     minimumHeight: 300
     minimumWidth: 300
+    visible: true
     Component.onCompleted: {
         startFragment("qrc:/layout/FragmentMain.qml")
     }

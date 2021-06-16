@@ -38,6 +38,11 @@ Page {
     }
 
     function toast(text) {
-        toastManager.show(text)
+        toastManager.show(text,1500)
     }
+
+    function logi(text) {
+        controller.logi(fragment.toString()+text)
+    }
+
 }

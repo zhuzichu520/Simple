@@ -10,15 +10,15 @@ ApplicationWindow {
     id:root
 
     onClosing: function(closeevent){
-        closeevent.accepted = false
         root.destroy()
+        closeevent.accepted = false
     }
 
     StackView {
         id:container
         width: parent.width
         anchors{
-           fill:parent
+            fill:parent
         }
     }
 
@@ -26,8 +26,9 @@ ApplicationWindow {
         container.push(Qt.resolvedUrl(url),{activity:root})
     }
 
-    function startActivity(url){
-        application.startActivity(url)
+    function startActivity(url,isAttach=false){
+        var object= Qt.createComponent(url).createObject(isAttach?root:null)
+        object.show()
     }
 
     function back(){

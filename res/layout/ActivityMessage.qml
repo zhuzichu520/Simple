@@ -10,6 +10,6 @@ Activity {
     minimumHeight: 200
     minimumWidth: 300
     Component.onCompleted: {
-        startFragment("qrc:/layout/FragmentMain.qml")
+        startFragment("qrc:/layout/FragmentLogin.qml")
     }
 }

@@ -10,11 +10,11 @@ Fragment {
     }
 
     onCreateView: {
-        console.debug("登录页面加载完成")
+        logi("登录页面加载完成")
     }
 
     onDestroyView: {
-        console.debug("登录页面销毁")
+         logi("登录页面销毁")
     }
 
     TextField {
@@ -33,7 +33,7 @@ Fragment {
         text:controller.username
         height: 34
         focus: true
-        maximumLength: 15
+        maximumLength: 25
         color: "#FFFF7A00"
         placeholderTextColor: "#999F9F9F"
         placeholderText: "请输入用户名"

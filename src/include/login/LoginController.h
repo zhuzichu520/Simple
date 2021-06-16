@@ -40,8 +40,8 @@ signals:
     void passwordChanged(const QString &);
 
 private:
-    QString password;
-    QString username;
+    QString m_password;
+    QString m_username;
 };
 
 #endif

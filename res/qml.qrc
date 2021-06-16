@@ -7,7 +7,6 @@
         <file>layout/FragmentMain.qml</file>
         <file>layout/FragmentLogin.qml</file>
         <file>layout/ActivityMessage.qml</file>
-        <file>base/Application.qml</file>
         <file>view/CusButton.qml</file>
         <file>view/Toast.qml</file>
         <file>view/ToastManager.qml</file>

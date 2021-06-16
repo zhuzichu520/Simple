@@ -2,7 +2,7 @@
 #define SIMPLE_BASECONTROLLER_H
 
 #include <QObject>
-#include <qdebug.h>
+#include <spdlog/spdlog.h>
 
 class BaseController : public QObject {
 Q_OBJECT
@@ -13,13 +13,15 @@ public:
 
     Q_INVOKABLE void onCreateView(QObject *root);
 
+    Q_INVOKABLE static void logi(const QString &info);
+
     virtual void initView() = 0;
 
-    void startActivity(const QString &url);
+    void startActivity(const QVariant &url);
 
-    void startFragment(const QString &url);
+    void startFragment(const QVariant &url);
 
-    void toast(const QString &text);
+    void toast(const QVariant &text);
 
     void back();
 

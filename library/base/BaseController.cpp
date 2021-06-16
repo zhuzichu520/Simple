@@ -5,7 +5,7 @@
  * @param parent
  */
 BaseController::BaseController(QObject *parent) {
-    qDebug() << "执行BaseController的构造函数";
+    SPDLOG_INFO("执行BaseController的构造函数");
 }
 
 /**
@@ -13,7 +13,7 @@ BaseController::BaseController(QObject *parent) {
  * @param parent
  */
 BaseController::~BaseController() {
-    qDebug() << "执行BaseController的析构函数";
+    SPDLOG_INFO("执行BaseController的析构函数");
 }
 
 /**
@@ -21,16 +21,25 @@ BaseController::~BaseController() {
  * @param root 根布局的指针
  */
 void BaseController::onCreateView(QObject *root) {
-    qDebug() << "执行BaseController的onCreateView方法";
+    SPDLOG_INFO("执行BaseController的onCreateView方法");
     m_root = root;
     initView();
 }
 
 /**
+ * 打印日志
+ * @param info
+ */
+void BaseController::logi(const QString &info) {
+    SPDLOG_INFO(info.toStdString());
+}
+
+
+/**
  * 窗口跳转
  * @param url 跳转QML资源路径
  */
-void BaseController::startActivity(const QString &url) {
+void BaseController::startActivity(const QVariant &url) {
     QMetaObject::invokeMethod(m_root, "startActivity", Q_ARG(QVariant, url));
 }
 
@@ -38,7 +47,7 @@ void BaseController::startActivity(const QString &url) {
  * 窗口内的页面跳转
  * @param url 跳转QML资源路径
  */
-void BaseController::startFragment(const QString &url) {
+void BaseController::startFragment(const QVariant &url) {
     QMetaObject::invokeMethod(m_root, "startFragment", Q_ARG(QVariant, url));
 }
 
@@ -49,6 +58,6 @@ void BaseController::back() {
     QMetaObject::invokeMethod(m_root, "back");
 }
 
-void BaseController::toast(const QString &text) {
+void BaseController::toast(const QVariant &text) {
     QMetaObject::invokeMethod(m_root, "toast", Q_ARG(QVariant, text));
 }
