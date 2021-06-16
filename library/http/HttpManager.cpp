@@ -1,9 +1,3 @@
-#include <QUrlQuery>
-#include <QHttpPart>
-#include <QJsonObject>
-#include <QJsonDocument>
-
-#include <tools//ToolLog.h>
 #include <http/HttpManager.h>
 
 HttpManager::HttpManager() {
@@ -33,8 +27,7 @@ Request *HttpManager::get(const QString &urlString, const QMap<QString, QString>
     request.setAttribute(QNetworkRequest::FollowRedirectsAttribute, true);
 
     if (networkAccessManager->networkAccessible() == QNetworkAccessManager::NotAccessible) {
-        LOG(INFO) << "networkaccess change !";
-
+        SPDLOG_INFO("networkaccess change !");
         networkAccessManager->setNetworkAccessible(QNetworkAccessManager::Accessible);
     }
 
@@ -42,7 +35,6 @@ Request *HttpManager::get(const QString &urlString, const QMap<QString, QString>
 
     if (!reply) {
         qCritical("reply is null");
-
         return nullptr;
     }
 
@@ -62,10 +54,10 @@ Request *HttpManager::post(const QString &urlString, const QMap<QString, QString
     for (auto it = params.begin(); it != params.end(); it++) {
         postData.append(it.key()+"="+it.value()+"&");
     }
-    LOG(INFO) << "postData:" << postData.toStdString();
+    SPDLOG_INFO("postData:{}",postData.toStdString());
     QNetworkReply *reply = networkAccessManager->post(request, postData.toUtf8());
     if (networkAccessManager->networkAccessible() == QNetworkAccessManager::NotAccessible) {
-        LOG(INFO) << "networkaccess change !";
+        SPDLOG_INFO("networkaccess change !");
         networkAccessManager->setNetworkAccessible(QNetworkAccessManager::Accessible);
     }
     if (!reply) {
@@ -88,10 +80,10 @@ Request *HttpManager::postJson(const QString &urlString, const QMap<QString, QSt
         obj.insert(it.key(), it.value());
     }
     QString postData = QJsonDocument(obj).toJson(QJsonDocument::Compact);
-    LOG(INFO) << "postData:" << postData.toStdString();
+    SPDLOG_INFO("postData:%s",postData.toStdString());
     QNetworkReply *reply = networkAccessManager->post(request, postData.toUtf8());
     if (networkAccessManager->networkAccessible() == QNetworkAccessManager::NotAccessible) {
-        LOG(INFO) << "networkaccess change !";
+        SPDLOG_INFO("networkaccess change !");
         networkAccessManager->setNetworkAccessible(QNetworkAccessManager::Accessible);
     }
     if (!reply) {

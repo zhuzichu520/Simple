@@ -1,5 +1,4 @@
 #include <base/BaseController.h>
-#include <qdebug.h>
 
 /**
  * BaseController 构造函数

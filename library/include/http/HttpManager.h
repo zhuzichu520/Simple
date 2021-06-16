@@ -3,8 +3,12 @@
 
 #include <QMap>
 #include <QNetworkAccessManager>
-
-#include "Request.h"
+#include <QUrlQuery>
+#include <QHttpPart>
+#include <QJsonObject>
+#include <QJsonDocument>
+#include <spdlog/spdlog.h>
+#include <http/Request.h>
 
 class HttpManager {
 public:

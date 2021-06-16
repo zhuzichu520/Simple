@@ -1,8 +1,5 @@
 #include <login/LoginController.h>
-#include <QObject>
-#include <application/Application.h>
-#include <http/HttpManager.h>
-#include <tools/ToolLog.h>
+
 
 LoginController::LoginController(QObject *parent) : BaseController(parent) {
     qDebug() << "执行LoginController的构造函数";

@@ -5,6 +5,10 @@
 #include <QString>
 #include <qdebug.h>
 #include <QNetworkReply>
+#include <QObject>
+#include <application/Application.h>
+#include <http/HttpManager.h>
+#include <spdlog/spdlog.h>
 
 class LoginController : public BaseController {
 Q_OBJECT

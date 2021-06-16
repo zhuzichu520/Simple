@@ -3,6 +3,13 @@
 
 #include <QNetworkReply>
 #include <QTimer>
+#include <QIODevice>
+#include <QTimer>
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QNetworkCookie>
+#include <spdlog/spdlog.h>
+
 
 #define ERROR_CODE_MD5 -555
 #define ERROR_CODE_JSON -333

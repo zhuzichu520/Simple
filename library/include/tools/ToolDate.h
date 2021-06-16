@@ -5,6 +5,8 @@
 #ifndef SIMPLE_TOOLDATE_H
 #define SIMPLE_TOOLDATE_H
 
+#include <QTime>
+
 class ToolDate {
 public:
     ToolDate();

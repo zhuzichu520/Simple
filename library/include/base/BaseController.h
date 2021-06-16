@@ -2,6 +2,7 @@
 #define SIMPLE_BASECONTROLLER_H
 
 #include <QObject>
+#include <qdebug.h>
 
 class BaseController : public QObject {
 Q_OBJECT
