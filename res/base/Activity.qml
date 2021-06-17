@@ -34,8 +34,8 @@ ApplicationWindow {
     function back(){
         if(container.depth>1){
             container.pop()
-        }else{
-            root.destroy()
+            return
         }
+        root.close()
     }
 }

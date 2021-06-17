@@ -1,24 +1,10 @@
 import QtQuick 2.9
 
-/**
-  * @brief An Android-like timed message text in a box that self-destroys
-  * when finished if desired
-  */
 Rectangle {
 
-    /**
-      * Public
-      */
-
-    /**
-      * @brief Shows this Toast
-      *
-      * @param {string} text Text to show
-      * @param {real} duration Duration to show in milliseconds, defaults to 3000
-      */
     function show(text, duration) {
         message.text = text;
-        if (typeof duration !== "undefined") { // checks if parameter was passed
+        if (typeof duration !== "undefined") {
             time = Math.max(duration, 2 * fadeTime);
         }
         else {
@@ -27,19 +13,11 @@ Rectangle {
         animation.start();
     }
 
-    // whether this Toast will self-destroy when it is finished
     property bool selfDestroying: false
-
-    /**
-      * Private
-      */
-
     id: root
-
     readonly property real defaultTime: 1500
     property real time: defaultTime
     readonly property real fadeTime: 150
-
     property real margin: 10
 
     anchors {

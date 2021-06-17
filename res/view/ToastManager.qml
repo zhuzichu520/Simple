@@ -1,23 +1,7 @@
 import QtQuick 2.9
 
-
-/**
-  * @brief Manager that creates Toasts dynamically
-  */
 ListView {
 
-
-    /**
-      * Public
-      */
-
-
-    /**
-      * @brief Shows a Toast
-      *
-      * @param {string} text Text to show
-      * @param {real} duration Duration to show in milliseconds, defaults to 3000
-      */
     function show(text, duration) {
         model.insert(0, {
                          "text": text,
@@ -25,10 +9,6 @@ ListView {
                      })
     }
 
-
-    /**
-      * Private
-      */
     id: root
 
     z: Infinity
