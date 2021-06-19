@@ -6,9 +6,17 @@
         <file>base/Fragment.qml</file>
         <file>layout/FragmentMain.qml</file>
         <file>layout/FragmentLogin.qml</file>
+        <file>layout/FragmentHome.qml</file>
+        <file>layout/FragmentTool.qml</file>
         <file>layout/ActivityMessage.qml</file>
         <file>view/CusButton.qml</file>
         <file>view/Toast.qml</file>
         <file>view/ToastManager.qml</file>
+        <file>drawable/ic_main_home.png</file>
+        <file>drawable/ic_main_tool.png</file>
+        <file>global/Color.qml</file>
+        <file>global/qmldir</file>
+        <file>layout/FragmentHome.qml</file>
+        <file>layout/FragmentTool.qml</file>
     </qresource>
 </RCC>

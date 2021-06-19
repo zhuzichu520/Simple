@@ -58,6 +58,9 @@ void BaseController::back() {
     QMetaObject::invokeMethod(m_root, "back");
 }
 
+/**
+ * Toast
+ */
 void BaseController::toast(const QVariant &text) {
     QMetaObject::invokeMethod(m_root, "toast", Q_ARG(QVariant, text));
 }

@@ -5,6 +5,8 @@
 #include <QQmlApplicationEngine>
 #include <QGuiApplication>
 #include <login/LoginController.h>
+#include <home/HomeController.h>
+#include <tool/ToolController.h>
 #include <tools/ToolDate.h>
 #include <QNetworkAccessManager>
 
@@ -23,8 +25,6 @@ public:
 
 private:
     void registerQmlType();
-
-    void initHttp();
 };
 
 #endif

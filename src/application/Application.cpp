@@ -16,4 +16,6 @@ void Application::init(int argc, char *argv[]) {
 
 void Application::registerQmlType() {
     qmlRegisterType<LoginController>("UI.Controller", 1, 0, "LoginController");
+    qmlRegisterType<HomeController>("UI.Controller", 1, 0, "HomeController");
+    qmlRegisterType<ToolController>("UI.Controller", 1, 0, "ToolController");
 }

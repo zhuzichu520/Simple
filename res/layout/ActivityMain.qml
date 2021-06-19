@@ -4,10 +4,10 @@ import QtQuick.Controls 2.5
 import "../base"
 
 Activity {
-    width: 300
-    height: 400
-    minimumHeight: 300
-    minimumWidth: 300
+    width: 878
+    height: 595
+    minimumWidth: 878
+    minimumHeight: 595
     visible: true
     Component.onCompleted: {
         startFragment("qrc:/layout/FragmentMain.qml")
