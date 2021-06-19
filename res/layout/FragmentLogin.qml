@@ -10,11 +10,11 @@ Fragment {
     }
 
     onCreateView: {
-        logi("登录页面加载完成")
+
     }
 
     onDestroyView: {
-         logi("登录页面销毁")
+
     }
 
     TextField {

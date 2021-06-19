@@ -13,6 +13,13 @@ Fragment{
     Text {
         anchors.centerIn: parent
         text: qsTr("首页")
+
+        MouseArea{
+            anchors.fill: parent
+            onClicked: {
+                root.startFragment("qrc:/layout/FragmentLogin.qml")
+            }
+        }
     }
 
 }

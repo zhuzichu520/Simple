@@ -16,7 +16,7 @@ Fragment{
     }
 
     onVisibleChanged: {
-        logi("触发了:"+visible)
+
     }
 
 }

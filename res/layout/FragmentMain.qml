@@ -7,6 +7,8 @@ import "../global"
 
 Fragment {
 
+    id:root
+
     property int current: 0
 
     width: parent.width

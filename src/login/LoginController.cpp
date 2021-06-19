@@ -37,8 +37,9 @@ void LoginController::onClickLogin() {
     QMap<QString, QString> paramMap;
     paramMap["username"] = m_username;
     paramMap["password"] = m_password;
-    Request *request = HttpManager::instance().post("https://www.wanandroid.com/user/login", paramMap);
-    connect(request, &Request::onSuccess, this, [this](const QString &response) {
-        toast(response);
-    });
+    toast("哈哈");
+//    Request *request = HttpManager::instance().post("https://www.wanandroid.com/user/login", paramMap);
+//    connect(request, &Request::onSuccess, this, [this](const QString &response) {
+//        toast(response);
+//    });
 }

@@ -11,9 +11,11 @@ public:
 
     ~BaseController() override;
 
+    /**
+    * onCreateView 当QML中的跟布局执行Component.onCompleted的时候触发
+    * @param root 根布局的指针
+     */
     Q_INVOKABLE void onCreateView(QObject *root);
-
-    Q_INVOKABLE static void logi(const QString &info);
 
     virtual void initView() = 0;
 
@@ -21,9 +23,11 @@ public:
 
     void startFragment(const QVariant &url);
 
-    void toast(const QVariant &text);
+    void toast(const QString &text);
 
     void back();
+
+    Q_SIGNAL void toastEvent(const QString &text);
 
 private:
     QObject *m_root = nullptr;

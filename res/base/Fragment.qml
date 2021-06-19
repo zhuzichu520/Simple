@@ -12,9 +12,18 @@ Page {
     id: fragment
 
     Component.onCompleted: {
-        if (controller !== undefined)
-            controller.onCreateView(fragment)
+        if (controller === undefined)
+            return
+        controller.onCreateView(fragment)
+        initUI()
         createView()
+
+    }
+
+    function initUI(){
+        controller.onToastEvent.connect(function(text){
+            toast(text)
+        })
     }
 
     Component.onDestruction: {
@@ -39,10 +48,6 @@ Page {
 
     function toast(text) {
         toastManager.show(text,1500)
-    }
-
-    function logi(text) {
-        controller.logi(fragment.toString()+text)
     }
 
 }
