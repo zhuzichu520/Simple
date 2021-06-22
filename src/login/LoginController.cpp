@@ -26,11 +26,6 @@ void LoginController::setPassword(const QString &password) {
     Q_EMIT passwordChanged(m_password);
 }
 
-void LoginController::initView() {
-    setUsername("zhuzichu520@gmail.com");
-    setPassword("qaioasd520");
-}
-
 void LoginController::onClickLogin() {
     SPDLOG_INFO("用户名：{}", m_username.toStdString());
     SPDLOG_INFO("密码：{}", m_password.toStdString());

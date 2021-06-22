@@ -17,17 +17,29 @@ public:
      */
     Q_INVOKABLE void onCreateView(QObject *root);
 
-    virtual void initView() = 0;
+    Q_INVOKABLE void onDestroyView();
+
+    Q_INVOKABLE void onStart();
+
+    Q_INVOKABLE void onStop();
+
+    Q_INVOKABLE virtual void onLazy();
 
     void startActivity(const QVariant &url);
 
+    Q_SIGNAL void startActivityEvent(const QVariant &url);
+
     void startFragment(const QVariant &url);
+
+    Q_SIGNAL void startFragmentEvent(const QVariant &url);
 
     void toast(const QString &text);
 
+    Q_SIGNAL void toastEvent(const QString &text);
+
     void back();
 
-    Q_SIGNAL void toastEvent(const QString &text);
+    Q_SIGNAL void backEvent();
 
 private:
     QObject *m_root = nullptr;

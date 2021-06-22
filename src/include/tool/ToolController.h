@@ -17,7 +17,6 @@ public:
 
     ~ToolController() override;
 
-    void initView() override;
 };
 
 #endif

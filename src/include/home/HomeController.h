@@ -17,10 +17,9 @@ public:
 
     ~HomeController() override;
 
-    void initView() override;
+    Q_INVOKABLE void loadData(int page);
 
-    Q_INVOKABLE void loadData(const QString &page);
-
+    void onLazy() override;
 };
 
 #endif

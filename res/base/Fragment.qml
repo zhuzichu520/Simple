@@ -6,28 +6,59 @@ Page {
 
     property var activity
     property var controller
+    property var isFirstVisible: true
     signal createView
     signal destroyView
+    signal start
+    signal stop
+    signal lazy
 
     id: fragment
+    visible: false
 
     Component.onCompleted: {
         if (controller === undefined)
             return
+        createView()
         controller.onCreateView(fragment)
         initUI()
-        createView()
-
     }
 
     function initUI(){
         controller.onToastEvent.connect(function(text){
             toast(text)
         })
+        controller.onBackEvent.connect(function(){
+            back()
+        })
+        controller.onStartFragmentEvent.connect(function(url){
+            startFragment(url)
+        })
+        controller.onStartActivityEvent.connect(function(url){
+            startActivity(url)
+        })
+    }
+
+    onVisibleChanged: {
+        if(controller === undefined)
+            return
+        if(root.visible === true){
+            start()
+            controller.onStart()
+            if(isFirstVisible){
+                lazy()
+                controller.onLazy()
+                isFirstVisible = false
+            }
+        }
+        if(root.visible === false){
+            stop()
+            controller.onStop()
+        }
     }
 
     Component.onDestruction: {
-        destroyView()
+        onDestroyView()
     }
 
     ToastManager {

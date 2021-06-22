@@ -2,7 +2,7 @@
 
 
 BaseController::BaseController(QObject *parent) {
-    SPDLOG_INFO("执行BaseController的构造函数");
+
 }
 
 
@@ -11,21 +11,37 @@ BaseController::~BaseController() {
 }
 
 void BaseController::onCreateView(QObject *root) {
-    SPDLOG_INFO("执行BaseController的onCreateView方法");
     m_root = root;
-    initView();
+}
+
+
+void BaseController::onDestroyView() {
+
+}
+
+
+void BaseController::onStart() {
+
+}
+
+void BaseController::onStop() {
+
+}
+
+void BaseController::onLazy() {
+
 }
 
 void BaseController::startActivity(const QVariant &url) {
-    QMetaObject::invokeMethod(m_root, "startActivity", Q_ARG(QVariant, url));
+    Q_EMIT startActivityEvent(url);
 }
 
 void BaseController::startFragment(const QVariant &url) {
-    QMetaObject::invokeMethod(m_root, "startFragment", Q_ARG(QVariant, url));
+    Q_EMIT startFragmentEvent(url);
 }
 
 void BaseController::back() {
-    QMetaObject::invokeMethod(m_root, "back");
+    Q_EMIT backEvent();
 }
 
 void BaseController::toast(const QString &text) {

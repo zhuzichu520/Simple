@@ -29,8 +29,6 @@ public:
 
     void setPassword(const QString &password);
 
-    void initView() override;
-
     void requestFinished(QNetworkReply *reply);
 
 signals:

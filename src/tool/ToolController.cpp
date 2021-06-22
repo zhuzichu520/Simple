@@ -7,8 +7,3 @@ ToolController::ToolController(QObject *parent) : BaseController(parent) {
 ToolController::~ToolController() {
     SPDLOG_INFO("执行ToolController的构造函数");
 }
-
-void ToolController::initView() {
-
-
-}
