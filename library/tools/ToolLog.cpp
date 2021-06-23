@@ -13,7 +13,6 @@ ToolLog::~ToolLog()
 
 void ToolLog::configureGoogleLog()
 {
-    google::EnableLogCleaner(10);
     google::SetStderrLogging(google::GLOG_INFO);
     auto appDataDir = QStandardPaths::writableLocation(QStandardPaths::DataLocation);
     appDataDir.append("/App");
