@@ -8,7 +8,6 @@
 #include <QObject>
 #include <application/Application.h>
 #include <http/HttpManager.h>
-#include <spdlog/spdlog.h>
 
 class ToolController : public BaseController {
 Q_OBJECT

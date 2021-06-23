@@ -7,7 +7,7 @@
 #include <QHttpPart>
 #include <QJsonObject>
 #include <QJsonDocument>
-#include <spdlog/spdlog.h>
+#include <tools//ToolLog.h>
 #include <http/Request.h>
 
 class HttpManager {

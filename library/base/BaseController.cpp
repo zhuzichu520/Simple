@@ -7,7 +7,7 @@ BaseController::BaseController(QObject *parent) {
 
 
 BaseController::~BaseController() {
-    SPDLOG_INFO("执行BaseController的析构函数");
+    LOG(INFO)<<"执行BaseController的析构函数";
 }
 
 void BaseController::onCreateView(QObject *root) {

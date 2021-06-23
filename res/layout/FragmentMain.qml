@@ -36,6 +36,7 @@ Fragment {
             top:parent.top
             bottom:parent.bottom
         }
+
         ListView{
             anchors.fill: parent
             model:tabModel

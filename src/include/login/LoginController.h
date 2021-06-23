@@ -8,7 +8,7 @@
 #include <QObject>
 #include <application/Application.h>
 #include <http/HttpManager.h>
-#include <spdlog/spdlog.h>
+#include <tools/ToolLog.h>
 
 class LoginController : public BaseController {
 Q_OBJECT
@@ -28,8 +28,6 @@ public:
     const QString &getPassword() const;
 
     void setPassword(const QString &password);
-
-    void requestFinished(QNetworkReply *reply);
 
 signals:
 

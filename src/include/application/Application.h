@@ -8,6 +8,7 @@
 #include <home/HomeController.h>
 #include <tool/ToolController.h>
 #include <tools/ToolDate.h>
+#include <tools/ToolLog.h>
 #include <QNetworkAccessManager>
 
 #define APP Application::instance()

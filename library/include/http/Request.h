@@ -8,8 +8,7 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QNetworkCookie>
-#include <spdlog/spdlog.h>
-
+#include <tools/ToolLog.h>
 
 #define ERROR_CODE_MD5 -555
 #define ERROR_CODE_JSON -333

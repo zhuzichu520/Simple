@@ -1,11 +1,11 @@
 #include <home/HomeController.h>
 
 HomeController::HomeController(QObject *parent) : BaseController(parent) {
-    SPDLOG_INFO("执行HomeController的构造函数");
+
 }
 
 HomeController::~HomeController() {
-    SPDLOG_INFO("执行HomeController的构造函数");
+
 }
 
 void HomeController::loadData(int page) {
@@ -15,6 +15,7 @@ void HomeController::loadData(int page) {
             paramMap);
     connect(request, &Request::onSuccess, this, [this](const QString &response) {
         toast(response);
+
     });
 }
 

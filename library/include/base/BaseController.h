@@ -2,7 +2,7 @@
 #define SIMPLE_BASECONTROLLER_H
 
 #include <QObject>
-#include <spdlog/spdlog.h>
+#include <tools/ToolLog.h>
 
 class BaseController : public QObject {
 Q_OBJECT

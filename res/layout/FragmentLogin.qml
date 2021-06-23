@@ -41,6 +41,9 @@ Fragment {
             color: "#0D4F7DA4"
             radius: 3
         }
+        onTextChanged: {
+            controller.username = text
+        }
         wrapMode: TextEdit.Wrap
     }
 
@@ -66,6 +69,9 @@ Fragment {
         background: Rectangle {
             color: "#0D4F7DA4"
             radius: 3
+        }
+        onTextChanged: {
+            controller.password = text
         }
         wrapMode: TextEdit.Wrap
     }
